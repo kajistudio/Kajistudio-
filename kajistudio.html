@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Kaji Studio</title> 
+  <link rel="stylesheet" href="styles.css"> 
+  <meta name="description" content="Transformamos marcas mediante estrategias creativas y soluciones visuales únicas."> 
+  <meta name="keywords" content="Kaji Studio, agencia de publicidad digital, branding, diseño gráfico, edición de videos"> 
+  <meta name="author" content="Kaji Studio"> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background-color: #222222;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #ff0000;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+.btn {
+    background-color: #ffcc00;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#valores, #servicios-destacados, #registro {
+    padding: 50px 20px;
+}
+
+#valores-grid, .servicios-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.valor, .servicio {
+    text-align: center;
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+#registro h2 {
+    color: #ffcc00;
+    text-align: center;
+}
+
+#registro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#registro label {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#registro input, #registro textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#registro .btn {
+    background-color: #ffcc00;
+    color: #000000;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}</style></head> 
+ <body> 
+  <header> 
+   <div class="logo"> 
+    <img src="ruta/al/logotipo.png" alt="Kaji Studio Logo"> 
+   </div> 
+   <nav> 
+    <ul> 
+     <li><a href="#inicio">Inicio</a></li> 
+     <li><a href="#sobre-nosotros">Sobre Nosotros</a></li> 
+     <li><a href="#servicios">Servicios</a></li> 
+     <li><a href="#portafolio">Portafolio</a></li> 
+     <li><a href="#blog">Blog</a></li> 
+     <li><a href="#contacto">Contacto</a></li> 
+     <li><a href="#registro">Registro</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+  <main> 
+   <section id="inicio" class="hero"> 
+    <h1>Transformamos Tu Marca</h1> 
+    <p>Descubre nuestros servicios.</p> <a href="#servicios" class="btn">Conocer Más</a> 
+   </section> 
+   <section id="valores"> 
+    <h2>Nuestros Valores</h2> 
+    <div class="valores-grid"> 
+     <div class="valor"> 
+      <img src="ruta/a/innovacion.png" alt="Innovación"> 
+      <h3>Innovación</h3> 
+     </div> 
+     <div class="valor"> 
+      <img src="ruta/a/autenticidad.png" alt="Autenticidad"> 
+      <h3>Autenticidad</h3> 
+     </div> 
+     <div class="valor"> 
+      <img src="ruta/a/colaboracion.png" alt="Colaboración"> 
+      <h3>Colaboración</h3> 
+     </div> 
+     <div class="valor"> 
+      <img src="ruta/a/sostenibilidad.png" alt="Sostenibilidad"> 
+      <h3>Sostenibilidad</h3> 
+     </div> 
+    </div> 
+   </section> 
+   <section id="servicios-destacados"> 
+    <h2>Nuestros Servicios</h2> 
+    <div class="servicios-grid"> 
+     <div class="servicio"> 
+      <h3>Creación de Logotipos</h3> 
+      <p>Desarrollamos logotipos únicos y representativos.</p> 
+     </div> 
+     <div class="servicio"> 
+      <h3>Estrategias de Marca</h3> 
+      <p>Planificamos estrategias alineadas con tus objetivos.</p> 
+     </div> 
+     <div class="servicio"> 
+      <h3>Edición de Videos</h3> 
+      <p>Creación de videos impactantes para tus campañas.</p> 
+     </div> 
+     <div class="servicio"> 
+      <h3>Consultoría Creativa</h3> 
+      <p>Te asesoramos en todas las etapas del desarrollo de tu marca.</p> 
+     </div> 
+     <div class="servicio"> 
+      <h3>Rediseño de Identidad Visual</h3> 
+      <p>Renovamos tu imagen para que destaque.</p> 
+     </div> 
+    </div> 
+   </section> 
+   <section id="registro"> 
+    <h2>Regístrate</h2> 
+    <form action="/enviar" method="post"> <label for="nombre">Nombre:</label> 
+     <input type="text" id="nombre" name="nombre" required> <label for="email">Email:</label> 
+     <input type="email" id="email" name="email" required> <label for="necesidades">Necesidades:</label> <textarea id="necesidades" name="necesidades" required></textarea> <button type="submit" class="btn">Enviar</button> 
+    </form> 
+   </section> 
+  </main> 
+  <footer> 
+   <p>© 2025 Kaji Studio. Todos los derechos reservados.</p> 
+  </footer> 
+ 
+<script type="text/javascript" id="dcoder_script">// Ejemplo de una función para animar botones al hacer clic
+document.addEventListener('DOMContentLoaded', function () {
+    const buttons = document.querySelectorAll('.btn');
+
+    buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            this.classList.add('clicked');
+            setTimeout(() => this.classList.remove('clicked'), 300);
+        });
+    });
+});</script></body></html>
